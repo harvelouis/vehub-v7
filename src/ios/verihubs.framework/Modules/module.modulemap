@@ -1,0 +1,11 @@
+framework module verihubs {
+  umbrella header "verihubs.h"
+
+  export *
+  module * { export * }
+}
+
+module verihubs.Swift {
+    header "verihubs-Swift.h"
+    requires objc
+}

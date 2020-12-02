@@ -1,0 +1,35 @@
+{
+  "name": "verihubs-plugin-liveness",
+  "version": "1.0.0",
+  "description": "A Cordova plugin that allows users to do liveness detection.",
+  "cordova": {
+    "id": "verihubs-plugin-liveness",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/verihubspublic/cordova-plugin.git"
+  },
+  "keywords": [
+    "Verihubs",
+    "Liveness",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Asim Andrian <asim.andrian@verihubs.com>",
+  "license": "JRL",
+  "bugs": {
+    "url": "https://gitlab.com/verihubspublic/cordova-plugin/-/issues"
+  },
+  "homepage": "https://gitlab.com/verihubspublic/cordova-plugin"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="verihubs-plugin-liveness" version="1.0.0">
+    <name>Verihubs SDK Plugin</name>
+
+    <description>A Cordova plugin that allows users to do liveness detection.</description>
+    <license>JRL</license>
+
+    <keywords>cordova,android,ios,verihubs,liveness</keywords>
+    <repo>https://gitlab.com/verihubspublic/cordova-plugin.git</repo>
+    <issue>https://gitlab.com/verihubspublic/cordova-plugin/-/issues</issue>
+  
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+  
+    <js-module src="www/VerihubsCordova.js" name="verihubscordova">
+        <clobbers target="window.plugins.verihubs" />
+    </js-module>
+    
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="VerihubsPlugin">
+                <param name="android-package" value="com.verihubs.android.plugin.liveness.VerihubsCordova"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/VerihubsCordova.java" target-dir="src/com/verihubs/cordova/plugin" />
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
+        <framework src="com.android.support:appcompat-v7:28.0.0"/>
+        <framework src="com.android.support.constraint:constraint-layout:2.0.4"/> 
+        <resource-file src="src/aardir/msdk-bca-release.aar" target="libs/msdk-bca-release.aar" />
+    </platform>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="VerihubsPlugin">
+                <param name="ios-package" value="VerihubsPlugin"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/ios/VerihubsCordova.swift" />
+        <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
+        <dependency id="cordova-plugin-ios-camera-permissions"/>
+    
+        <framework src="src/ios/verihubs.framework"   embed="true" custom="true" />
+    </platform>
+</plugin>

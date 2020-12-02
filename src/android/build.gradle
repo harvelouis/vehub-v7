@@ -1,0 +1,19 @@
+repositories{
+    jcenter()
+    google()
+    flatDir{
+        dirs 'src/main/libs'
+    }
+}
+
+dependencies {
+    compile(name:'msdk-bca-release', ext:'aar')
+}
+
+android {
+    
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+}
