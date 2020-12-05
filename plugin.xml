@@ -39,10 +39,12 @@
                 <param name="ios-package" value="VerihubsPlugin"/>
             </feature>
         </config-file>
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>use camera</string>
+        </config-file>
 
         <source-file src="src/ios/VerihubsCordova.swift" />
-        <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
-        <dependency id="cordova-plugin-ios-camera-permissions"/>
+        <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
     
         <framework src="src/ios/verihubs.framework"   embed="true" custom="true" />
     </platform>
