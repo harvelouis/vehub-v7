@@ -3,7 +3,7 @@ import Foundation
 import verihubs
 import UIKit
 
-@objc(VerihubsCordova)
+@objc(VerihubsIosWrapper)
 public class VerihubsIosWrapper :  CDVPlugin , VerihubsDelegate{
 
   var verisdk: VerihubsSDK!
