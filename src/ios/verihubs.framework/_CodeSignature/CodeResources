@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/verihubs.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		YKZVlKnZUMcDA4uzfrLoTPtC9pg=
+		orLf9zq84TNpjEvCiQlwitZjXss=
 		</data>
 		<key>Modules/verihubs.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		YKZVlKnZUMcDA4uzfrLoTPtC9pg=
+		orLf9zq84TNpjEvCiQlwitZjXss=
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		FDnRh/gK1fDP5QMGTVExEXAvvBw=
+		40oPyKKaVWDflzfpn08Qpn8Y8ng=
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		FDnRh/gK1fDP5QMGTVExEXAvvBw=
+		40oPyKKaVWDflzfpn08Qpn8Y8ng=
 		</data>
 		<key>VerihubsMain.storyboardc/Info.plist</key>
 		<data>
@@ -134,14 +134,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ODbIdVJGgZE2g3c4Cq4OAI7SvMmkFkEI5KjWqkpZGEE=
+			7sRSBlKCyIX15qPIPfXoGWSphoQGfJ8Aum8tT4Xv7rk=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ODbIdVJGgZE2g3c4Cq4OAI7SvMmkFkEI5KjWqkpZGEE=
+			7sRSBlKCyIX15qPIPfXoGWSphoQGfJ8Aum8tT4Xv7rk=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pGCtCpOibJLk0KV8B496weHPm8jwswpp5KxsRE4MgYk=
+			9uGqGsL3myM9FbC9B6ErKSTwpNgw/aRnPu15LWP53is=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/arm64.swiftdoc</key>
@@ -169,7 +169,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pGCtCpOibJLk0KV8B496weHPm8jwswpp5KxsRE4MgYk=
+			9uGqGsL3myM9FbC9B6ErKSTwpNgw/aRnPu15LWP53is=
 			</data>
 		</dict>
 		<key>VerihubsMain.storyboardc/Info.plist</key>
