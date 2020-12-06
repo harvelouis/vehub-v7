@@ -33,7 +33,7 @@ VerihubsCordova.install = function () {
   if (!window.plugins) {
     window.plugins = {};
   }
-  window.plugins.verihubs = new VerihubsCordova();
-  return window.plugins.verihubs;
+  window.plugins.verihubssdk = new VerihubsCordova();
+  return window.plugins.verihubssdk;
 };
 cordova.addConstructor(VerihubsCordova.install);

@@ -16,7 +16,7 @@
     </engines>
   
     <js-module src="www/VerihubsCordova.js" name="verihubscordova">
-        <clobbers target="window.plugins.verihubs" />
+        <clobbers target="window.plugins.verihubssdk" />
     </js-module>
     
     <platform name="android">
@@ -26,7 +26,7 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/VerihubsCordova.java" target-dir="src/com/verihubs/cordova/plugin" />
+        <source-file src="src/android/VerihubsAndroidWrapper.java" target-dir="src/com/verihubs/cordova/plugin" />
         <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
         <framework src="com.android.support:appcompat-v7:28.0.0"/>
         <framework src="com.android.support.constraint:constraint-layout:2.0.4"/> 
