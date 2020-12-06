@@ -16,7 +16,7 @@ import static com.verihubs.msdk_bca.VerihubsType.LIVENESS_CODE;
 import static com.verihubs.msdk_bca.VerihubsType.RESULT_ACTIVE_FAIL;
 import static com.verihubs.msdk_bca.VerihubsType.RESULT_PASSIVE_FAIL;
 
-public class VerihubsCordova extends CordovaPlugin {
+public class VerihubsAndroidWrapper extends CordovaPlugin {
   
     private static int RESULT_OK = -1;
     private static int RESULT_CANCELED = 0;

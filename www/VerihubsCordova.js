@@ -4,7 +4,7 @@ VerihubsCordova.prototype.initClass = function (
   successCallback,
   errorCallback
 ) {
-  cordova.exec(successCallback, errorCallback, "VerihubsPlugin", "initClass", null);
+  cordova.exec(successCallback, errorCallback, "VerihubsWrapper", "initClass", null);
 };
 
 VerihubsCordova.prototype.verifyLiveness = function (
@@ -16,7 +16,7 @@ VerihubsCordova.prototype.verifyLiveness = function (
   cordova.exec(
     successCallback,
     errorCallback,
-    "VerihubsPlugin",
+    "VerihubsWrapper",
     "verifyLiveness",
     [instructions_count, timeout]
   );
@@ -26,7 +26,7 @@ VerihubsCordova.prototype.getVersion = function (
   successCallback,
   errorCallback
 ) {
-  cordova.exec(successCallback, errorCallback, "VerihubsPlugin", "getVersion", null);
+  cordova.exec(successCallback, errorCallback, "VerihubsWrapper", "getVersion", null);
 };
 
 VerihubsCordova.install = function () {

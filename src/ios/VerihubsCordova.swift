@@ -4,7 +4,7 @@ import verihubs
 import UIKit
 
 @objc(VerihubsCordova)
-public class VerihubsPlugin :  CDVPlugin , VerihubsDelegate{
+public class VerihubsIosWrapper :  CDVPlugin , VerihubsDelegate{
 
   var verisdk: VerihubsSDK!
   var resp: String!
