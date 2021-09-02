@@ -44,7 +44,7 @@
         </config-file>
 
         <source-file src="src/ios/VerihubsIosWrapper.swift" />
-        <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
+        <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
     
         <framework src="src/ios/verihubs.framework"   embed="true" custom="true" />
     </platform>
